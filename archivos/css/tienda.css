@@ -39,3 +39,12 @@
 .colorPurpura {
     color: #9443d6;
 }
+.altoimagen {
+    height: 200px;
+}
+.puntero {
+    cursor: pointer;
+}
+.margenTop {
+    margin-top: 90px;
+}

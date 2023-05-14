@@ -1,1 +1,133 @@
-<h1>Organizaciones</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Cargador CSS -->
+    <link rel="stylesheet" href="archivos/css/cargador.css">
+    <!-- Tienda CSS -->
+    <link rel="stylesheet" href="archivos/css/tienda.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Slick -->
+    <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick.css">
+    <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
+    <title>PetStore</title>
+</head>
+<body> 
+    <section id="donacion">
+        <h2 class="text-center mt-5 mb-3">Organizaciones</h2>
+        <div class="row">
+            <div class="col-lg-6 text-center">
+                <h4>Fundacion animal chile</h4>
+                <img data-toggle="modal" data-target="#exampleModal" class="altoimagen puntero" src="https://fundacionanimal.cl/wp-content/uploads/2022/09/logo2.png" alt="">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h4>Mascota adopcion</h4>
+                <img data-toggle="modal" data-target="#fundacion2"class="altoimagen puntero" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDPjVA53PtncsmUqc9iKjTWHorHG9NQmVouw&usqp=CAU" alt="">                    
+            </div> 
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-6 text-center">
+                <h4>Fundacion de ayuda</h4>
+                <img data-toggle="modal" data-target="#fundacion3" class="altoimagen puntero" src="https://static.guiaongs.org/wp-content/uploads/2015/12/faa_destacada1-360x336.png" alt="">
+            </div>
+            <div class="col-lg-6 text-center">
+                <h4>Esperanza animales</h4>
+                <img data-toggle="modal" data-target="#fundacion4" class="altoimagen puntero" src="https://lirp.cdn-website.com/4fe36726/dms3rep/multi/opt/2432382-logo_ea-16790-640w.png" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog margenTop" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Fundacion animal chile</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            Nos une el amor por los animales y luchamos por justicia y respeto para ellos. Tenemos a cargo más de 70 animales rescatados del maltrato, la explotación y el abandono.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal -->
+<div class="modal fade" id="fundacion2" tabindex="-1" role="dialog" aria-labelledby="fundacion2" aria-hidden="true">
+    <div class="modal-dialog margenTop" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" >Mascotas adopcion</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            Nos preocupamos para que todas las mascotas encuentren un hogar lo antes posible. Todas las mascotas en adopcion que se muestran en nuestra web tienen un contacto para poder conocer más acerca de ellas. Si eres amante de los animales seguro que en nuestra web encuentras un nuevo miembro para tu familia.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+<div class="modal fade" id="fundacion3" tabindex="-1" role="dialog" aria-labelledby="fundacion2" aria-hidden="true">
+    <div class="modal-dialog margenTop" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" >Fundacion de ayuda a los animales</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            El lugar donde el respeto a los animales, al amor y el cariño que sentimos hacia ellos es lo que mueve a nuestra Fundación a luchar día a día por todos aquellos animales que sufren el comportamiento inhumano.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- Modal -->
+<div class="modal fade" id="fundacion4" tabindex="-1" role="dialog" aria-labelledby="fundacion2" aria-hidden="true">
+    <div class="modal-dialog margenTop" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" >Esperanza animales</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            Esperanza Animal es una organización sin fines de lucro que se forma con el objetivo de mejorar la calidad de vida de las mascotas abandonadas o nacidas en la calle y a la vez disminuir la sobrepoblación.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- Slicker -->
+<script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+<!-- Tienda JS -->
+<script src="archivos/js/tienda.js"></script>
