@@ -1,7 +1,93 @@
-*
-{
-    padding: 0;
-    margin: 0;
+/* Importaciones */
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+
+/* Estilos */
+* {
     border: 0;
-    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+aside {
+    position: fixed;
+    top: 76px;
+    width: 250px;
+    transition: all ease 0.2s;
+    height: 90%;
+    z-index: 999;
+}
+
+#seccionDinamica {
+    position: relative;
+    height: 150vh;
+    overflow: hidden;
+}
+
+.movimiento {
+    transform: translate(-250px, 0px);
+}
+
+.absoluto {
+    position: absolute;
+}
+
+.btnSidebar {
+    top: 5px;
+    right: -50px;
+}
+
+.headerSidebar {
+    margin-left: 5px;
+    border: 1px solid rgb(216, 215, 215);
+}
+.bodySidebar {
+    margin-left: 5px;
+    border: 1px solid rgb(216, 215, 215);
+    height: fit-content;
+    height: 90%;
+}
+
+.bodySidebar li {
+    padding: 5px;
+    margin: 10px 0px 5px 0px;
+    font-size: 22px;
+    transition: all ease .2s;
+    cursor: pointer;
+    height: 60px;
+}
+
+.bodySidebar li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+
+.bodySidebar li a:hover {
+    color: #9443d6 !important;
+}
+
+.bodySidebar li:hover {
+    border-left: 5px solid #9443d6;
+} 
+
+.fondoPurpura {
+    background-color: #9443d6;
+}
+
+.colorPurpura {
+    color: #9443d6;
+}
+
+.textoActivo {
+    color: #9443d6 !important;
+}
+
+.bordeActivo {
+    border-left: 5px solid #9443d6;
 }

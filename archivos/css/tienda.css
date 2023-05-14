@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+
+* {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+#productoCorreas {
+    display: none;
+}
+
+#productoBandanas{
+    display: none;
+}
+
+#collares {
+    cursor: pointer;
+}
+
+#bandanas {
+    cursor: pointer;
+}
+
+#correas {
+    cursor: pointer;
+}
+
+.enLineaBloque {
+    display: inline-block;
+}
+
+.enLinea {
+    display: inline-block;
+}
+
+.fondoPurpura {
+    background-color: #9443d6;
+}
+
+.colorPurpura {
+    color: #9443d6;
+}
