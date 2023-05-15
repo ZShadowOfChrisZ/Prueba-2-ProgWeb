@@ -39,12 +39,13 @@
 .colorPurpura {
     color: #9443d6;
 }
-/* .altoCarrusel {
-    height: 500px !important;
+
+.altoimagen {
+    height: 200px;
 }
-.carousel-control-prev {
-    height: 500px !important;
+.puntero {
+    cursor: pointer;
 }
-.carousel-control-next {
-    height: 500px !important;
-} */
+.margenTop {
+    margin-top: 90px;
+}
