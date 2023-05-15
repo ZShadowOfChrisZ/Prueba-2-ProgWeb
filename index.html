@@ -32,7 +32,7 @@
         </div>
         <div class="bodySidebar bg-light">
             <ul class="text-center">
-                <li id="inicio" onclick="activarItem($(this).attr('id')); cargarIframe($(this).attr('id'));" class="bordeActivo"><a id="enlaceinicio" class="textoActivo">Inicio</a></li>
+                <li id="inicio" onclick="activarItem('inicio');" class="bordeActivo"><a id="enlaceinicio" class="textoActivo">Inicio</a></li>
                 <li id="nosotros" onclick="activarItem($(this).attr('id')); cargarIframe($(this).attr('id'));"><a id="enlacenosotros">Nosotros</a></li>
                 <li id="tienda" onclick="activarItem($(this).attr('id')); cargarIframe($(this).attr('id'));"><a id="enlacetienda">Tienda</a></li>
                 <li id="organizaciones" onclick="activarItem($(this).attr('id')); cargarIframe($(this).attr('id'));"><a id="enlaceorganizaciones">Organizaciones</a></li>
@@ -44,7 +44,39 @@
         <article>
             <section>
                 <div id="seccionDinamica" class="container pt-5">
-                    <div id="loader"></div>
+                    <div style="display: none;" id="loader"></div>
+                    <div class="container">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div onclick="activarItem('nosotros');cargarIframe('nosotros');" class="carousel-item active altoCarrusel">
+                              <img class="d-block w-100" src="archivos/img/nosotrosImg.png" alt="Fasdasdsadas">
+                            </div>
+                            <div onclick="activarItem('tienda'); cargarIframe('tienda');" class="carousel-item altoCarrusel">
+                              <img class="d-block w-100" src="archivos/img/tiendaImg.png" alt="Second slide">
+                            </div>
+                            <div onclick="activarItem('donaciones'); cargarIframe('donaciones');" class="carousel-item altoCarrusel">
+                              <img class="d-block w-100" src="archivos/img/donacionesImg.png" alt="Third slide">
+                            </div>
+                            <div onclick="activarItem('contacto'); cargarIframe('contacto');" class="carousel-item altoCarrusel">
+                              <img class="d-block w-100" src="archivos/img/contactoImg.png" alt="Third slide">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                    </div>
                 </div>
             </section>
         </article>

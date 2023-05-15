@@ -49,3 +49,28 @@
 .margenTop {
     margin-top: 90px;
 }
+
+.altoCarrusel {
+    height: 450px !important;
+}
+.carousel-control-prev {
+    height: 450px !important;
+}
+.carousel-control-next {
+    height: 450px !important;
+}
+
+@media (max-width: 700px) {
+    .altoCarrusel {
+        height: 200px !important;
+    }
+    .carousel-control-prev {
+        height: 200px !important;
+    }
+    .carousel-control-next {
+        height: 200px !important;
+    }
+    .fondo h1{
+        font-size: 30px;
+    }
+}
